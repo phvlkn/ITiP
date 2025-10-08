@@ -2,6 +2,7 @@ public class Palindrome {
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++) {
             String s = args[i];
+            
             if (isPalindrome(s)) {
                 System.out.println(s + " — палиндром");
             } else {
@@ -19,6 +20,7 @@ public class Palindrome {
     }
 
     public static boolean isPalindrome(String s) {
+
         String reversed = reverseString(s);
         return s.equals(reversed);
     }
