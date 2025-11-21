@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AgeChecker {
 
-    public static void checkAge(int age) throws CustomAgeException {
+    public static void checkAge(int age) throws CustomAgeException { //заявляем что может выбрасывать customageexeption
         if (age < 0 || age > 120) {
             throw new CustomAgeException("Недопустимый возраст: " + age);
         }

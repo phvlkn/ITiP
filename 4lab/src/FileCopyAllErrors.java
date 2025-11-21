@@ -11,12 +11,12 @@ public class FileCopyAllErrors {
         FileOutputStream output = null;
 
         try {
-            // Попытка открыть файлы
+            // открываем файлы
             input = new FileInputStream("input.txt");
             output = new FileOutputStream("output.txt");
 
             int data;
-            // Попытка прочитать и записать данные
+            // чтение и запись данных
             while ((data = input.read()) != -1) {
                 output.write(data);
             }
@@ -25,19 +25,19 @@ public class FileCopyAllErrors {
 
         }
         catch (FileNotFoundException e) {
-            // Ошибки открытия файла
+            // ошибки открытия
             System.out.println("Ошибка: не удалось открыть один из файлов.");
         }
         catch (IOException e) {
-            // Ошибка чтения или записи
+            // ошибка чтения или записи
             System.out.println("Ошибка чтения или записи файла.");
         }
         catch (Exception e) {
-            // Ловим всё остальное на всякий случай
+            // все остальное
             System.out.println("Произошла непредвиденная ошибка.");
         }
         finally {
-            // Попытка закрыть файлы
+            //закрыввем файлы
             try {
                 if (input != null) {
                     input.close();

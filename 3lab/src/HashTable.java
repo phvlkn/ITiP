@@ -21,7 +21,7 @@ public class HashTable<K, V> {
         }
     }
 
-    // массив списков, метод цепочек
+    // массив списков
     private LinkedList<Entry<K, V>>[] table;
     private int size;
 
@@ -30,19 +30,19 @@ public class HashTable<K, V> {
         size = 0;
     }
 
-    // хэш функция, получаем 
+    // хэш функция, получаем индекс
     private int hash(K key) {
         return Math.abs(key.hashCode() % table.length);
     }
 
-    // Добавить или обновить элемент
+    // добавить или обновить
     public void put(K key, V value) {
         int index = hash(key);
         if (table[index] == null) {
             table[index] = new LinkedList<>();
         }
 
-        // Проверяем, есть ли уже такой ключ
+        // проверка на наличие ключа
         for (Entry<K, V> entry : table[index]) {
             if (entry.getKey().equals(key)) {
                 entry.setValue(value); // обновляем значение
@@ -50,12 +50,12 @@ public class HashTable<K, V> {
             }
         }
 
-        // Если такого ключа нет — добавляем новый
+        // добавление нового
         table[index].add(new Entry<>(key, value));
         size++;
     }
 
-    // Получить значение по ключу
+    // получаю значение по ключу
     public V get(K key) {
         int index = hash(key);
         if (table[index] != null) {
@@ -68,7 +68,7 @@ public class HashTable<K, V> {
         return null; // если не нашли
     }
 
-    // Удалить элемент по ключу
+    // удалить по ключу
     public void remove(K key) {
         int index = hash(key);
         if (table[index] != null) {
@@ -90,13 +90,13 @@ public class HashTable<K, V> {
         return size == 0;
     }
 
-    // Для наглядного вывода всей таблицы
+    // печать всей таблицы
     public void printTable() {
         for (int i = 0; i < table.length; i++) {
             System.out.print("Index " + i + ": ");
             if (table[i] != null) {
                 for (Entry<K, V> entry : table[i]) {
-                    System.out.print(entry + " -> ");
+                    System.out.print(entry);
                 }
                 System.out.println();
             } else {
