@@ -10,13 +10,13 @@ public class ArrayAverage {
                 sum += arr[i];
             }
             double average = sum / arr.length;
-            System.out.println("Среднее арифметическое: " + average);
+            System.out.println("cреднее арифметическое: " + average);
         }
         catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Ошибка: выход за пределы массива.");
+            System.out.println("ошибка:выход за пределы массива");
         }
-        catch (Exception e) {
-            System.out.println("Ошибка вычислений.");
+        catch (ArithmeticException e) {
+            System.out.println("ошибка вычислений");
         }
     }
 }
