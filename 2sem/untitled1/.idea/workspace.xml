@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5adf6dbc-5a3c-414b-abff-eb8eab6d2294" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/org/example/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/1lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/Report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/src/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/src/Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/src/Primes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1lab/src/Primes_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/2lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/Report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/src/Appliance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/src/Dishwasher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/src/Refrigerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2lab/src/VacuumCleaner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/3lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/Report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/src/HashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/src/MainHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3lab/~$Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/4lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/Report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/src/AgeChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/src/ArrayAverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/src/CustomAgeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4lab/src/FileCopyAllErrors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/5lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/Report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/src/CapitalAfterLower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/src/IPCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/src/NumberFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/src/PasswordCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5lab/src/WordsByLetter.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3AUnhxNPret99x5EWXqYb1cPqUw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/emin/Documents/MTUCI/ITiP/2sem/untitled1/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5adf6dbc-5a3c-414b-abff-eb8eab6d2294" name="Changes" comment="" />
+      <created>1772656140887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772656140887</updated>
+      <workItem from="1772656142194" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,2 +1,3 @@
-package org.example;public class Person {
-}
+package org.example;
+
+public record Person(String name, int age) {}
