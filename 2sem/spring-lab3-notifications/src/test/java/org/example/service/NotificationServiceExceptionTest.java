@@ -1,3 +1,5 @@
+package org.example.service;
+
 import org.example.model.dto.NotificationDto;
 import org.example.model.enums.NotificationChannel;
 import org.example.repository.NotificationRepository;
@@ -7,7 +9,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.example.service.NotificationService;
 
 import java.util.Optional;
 

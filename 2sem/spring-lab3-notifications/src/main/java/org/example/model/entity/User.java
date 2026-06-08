@@ -1,9 +1,11 @@
 package org.example.model.entity;
 
+
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
+import org.example.model.enums.UserRole;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -22,7 +24,16 @@ public class User {
 
     @Column(nullable = false)
     private String name;
+
+    @Column(nullable = false, unique = true)
     private String email;
+
+    @Column(nullable = false)
+    private String password;
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private UserRole role;
+
     private String phone;
     private String deviceToken;
     private String telegramChatId;
@@ -30,4 +41,5 @@ public class User {
 
     @OneToMany(mappedBy = "recipient", cascade = CascadeType.ALL)
     private List<Notification> notifications = new ArrayList<>();
+
 }

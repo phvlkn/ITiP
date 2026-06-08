@@ -1,7 +1,8 @@
+package org.example.service;
+
 import org.example.model.dto.NotificationDto;
 import org.example.model.entity.Notification;
 import org.example.model.entity.User;
-import org.example.service.NotificationService;
 import org.example.model.enums.NotificationChannel;
 import org.example.repository.NotificationRepository;
 import org.example.repository.UserRepository;
